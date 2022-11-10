@@ -84,6 +84,10 @@ left: 0;
 width: 100%;
 }
 
+.header_active {
+    background: #183144;
+}
+
 .header__wrapper {
     display: flex;
     flex-wrap: wrap;
