@@ -82,10 +82,14 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
+padding-bottom: 25px;
+transition: 1s;
 }
 
 .header_active {
-    background: #183144;
+    background: #0e1d28;
+    opacity: 0.8;
+    z-index: 999;
 }
 
 .header__wrapper {
