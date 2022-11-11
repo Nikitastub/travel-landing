@@ -62,40 +62,39 @@ body {
 }
 
 .section-title {
+    position: relative;
+    padding-bottom: 0.75rem;
     font-weight: 500;
     font-size: 2.25rem;
     line-height: 2.5rem;
     color: var(--text-black);
-    padding-bottom: 0.75rem;
-    position: relative;
 }
 
 .section-title::after {
-    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     content: '';
     background: var(--link-color);
     width: 15.75rem;
     height: 0.25rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 /* Header start */
 
 .header {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-padding-bottom: 1.5rem;
-transition: 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    transition: 1s;
 }
 
 .header_active {
+    z-index: 999;
     background: #0e1d28;
     opacity: 0.8;
-    z-index: 999;
 }
 
 .header__wrapper {
@@ -142,11 +141,11 @@ transition: 1s;
 }
 
 .intro__title {
+    margin-bottom: 1.5rem;
     max-width: 38.75rem;
     font-size: 3rem;
     line-height: 3.75rem;
     color: var(--white-color);
-    margin-bottom: 1.5rem;
 }
 
 .intro__subtitle {
@@ -164,12 +163,12 @@ transition: 1s;
 }
 
 .search-form__field {
+    margin-right: 3.75rem;
+    padding-left: 2.75rem;
     width: 18.5rem;
     background: url(../img/circle-ico.svg) no-repeat left center;
     border: 0;
     border-bottom: 2px solid #BFC0C5;
-    margin-right: 3.75rem;
-    padding-left: 2.75rem;
     font-size: 1.25rem;
     line-height: 1.5rem;
     color: var(--white-color);
@@ -200,22 +199,22 @@ transition: 1s;
 /* Benefits start */
 
 .benefits__wrap {
+    position: relative;
     max-width: 1262px;
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
     margin: 0 auto;
-    position: relative;
     background-color: var(--white-color);
 }
 
 .benefits__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5rem 6.25rem 7.5rem 6.25rem;
     width: 100%;
     font-weight: 500;
     font-size: 2rem;
     line-height: 3rem;
-    padding: 5rem 6.25rem 7.5rem 6.25rem;
-    position: absolute;
-    top: 0;
-    left: 0;
     transform: translateY(-100%);
     background-color: var(--white-color);
 }
@@ -354,14 +353,14 @@ transition: 1s;
 }
 
 .places__card-desc {
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 3.75rem;
-    color: var(--white-color);
     position: absolute;
     bottom: 2.74rem;
     left: 2.75rem;
     z-index: 3;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    color: var(--white-color);
 }
 
 /* Places end */
@@ -410,6 +409,7 @@ transition: 1s;
     color: var(--link-color);
     padding-right: 3.5rem;
     background: url(../img/shape-ico.png) no-repeat 95% center;
+    text-decoration: none;
 }
 
 .tours__tour-more:hover {
@@ -439,14 +439,14 @@ transition: 1s;
 }
 
 .top__card-pic {
-    margin-bottom: 2.75rem;
     position: relative;
+    margin-bottom: 2.75rem;
 }
 
 .top__card-info {
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -508,9 +508,9 @@ transition: 1s;
 /* Videos start */
 
 .videos__wrapper {
+    position: relative;
     max-width: 90rem;
     margin: 0 auto;
-    position: relative;
 }
 
 .video__item {
