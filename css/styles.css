@@ -210,7 +210,7 @@ transition: 1s;
     position: absolute;
     top: 0;
     left: 0;
-    transform: translateY(-75%);
+    transform: translateY(-100%);
     background-color: #fff;
 }
 
@@ -261,6 +261,7 @@ transition: 1s;
 
 .benefits {
     margin-bottom: 131px;
+    margin-top: 70px;
 }
 
 
