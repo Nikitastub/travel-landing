@@ -206,11 +206,11 @@ transition: 1s;
     font-weight: 500;
     font-size: 35px;
     line-height: 42px;
-    padding: 93px 100px 120px 100px;
+    padding: 83px 100px 120px 100px;
     position: absolute;
     top: 0;
     left: 0;
-    transform: translateY(-100%);
+    transform: translateY(-75%);
     background-color: #fff;
 }
 
