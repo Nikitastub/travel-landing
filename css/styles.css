@@ -61,6 +61,32 @@ body {
     margin: 0 auto;
 }
 
+.base-link {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.base-button {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: var(--white-color);
+    background: var(--link-color);
+    padding: 0.75rem 1.25rem;
+    text-decoration: none;
+}
+
+.link-shape {
+    padding-right: 3.5rem;
+    background: url(../img/shape-ico.png) no-repeat 95% center;
+    transition: .3s all;
+}
+
+
+
 .section-title {
     position: relative;
     padding-bottom: 0.75rem;
@@ -249,17 +275,6 @@ body {
     line-height: 1.5rem;
 }
 
-.benefits__card-more {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: var(--link-color);
-    text-decoration: none;
-    padding-right: 3.5rem;
-    background: url(../img/shape-ico.png) no-repeat 95% center;
-    transition: .3s all;
-}
-
 .benefits__card-more:hover {
     background: url(../img/shape-ico.png) no-repeat right center;
 }
@@ -283,12 +298,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2.25rem;
-}
-
-.places__view-all {
-    text-decoration: none;
-    padding-right: 3.5rem;
-    background: url(../img/shape-ico.png) no-repeat 95% center;
 }
 
 .places__view-all:hover {
@@ -402,16 +411,6 @@ body {
     margin-bottom: 58px;
 }
 
-.tours__tour-more {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: var(--link-color);
-    padding-right: 3.5rem;
-    background: url(../img/shape-ico.png) no-repeat 95% center;
-    text-decoration: none;
-}
-
 .tours__tour-more:hover {
     opacity: .75;
 }
@@ -487,16 +486,6 @@ body {
     font-size: 1rem;
     line-height: 1.5rem;
     margin-bottom: 2rem;
-}
-
-.top__card-more {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    color: var(--white-color);
-    background: var(--link-color);
-    padding: 0.75rem 1.25rem;
-    text-decoration: none;
 }
 
 .top__card-more:hover {
